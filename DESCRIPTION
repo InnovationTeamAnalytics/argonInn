@@ -1,0 +1,18 @@
+Package: argonDashMod
+Type: Package
+Title: Argon Shiny Dashboard Template
+Version: 0.5.0
+Authors@R: c(
+  person("David", "Granjon", email = "dgranjon@ymail.com", role = c("aut", "cre")),
+  person(family = "RinteRface", role = "cph"),
+  person(family = "Creative Tim", role = c("ctb", "cph"), comment = "Argon theme for Bootstrap 4"))
+Maintainer: Alejandro Abraham <a.abraham@innovationteam.eu>
+Description: Create awesome 'Bootstrap 4' dashboards powered by 'Argon'.
+License: GPL-3
+Imports: shiny, 
+    htmltools,
+    argonR
+Suggests: magrittr
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
